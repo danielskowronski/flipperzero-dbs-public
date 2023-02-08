@@ -1,0 +1,87 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: POWER
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 1C E3 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 21 DE 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2B D4 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 1D E2 00 00
+# 
+name: EQ/NEWS
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2D D2 00 00
+# 
+name: EQ/MOVIE
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2C D3 00 00
+# 
+name: EQ/MUSIC
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 27 D8 00 00
+#
+name: IN/OPTICAL
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 1B E4 00 00
+# 
+name: IN/ANALOG
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 10 EF 00 00
+# 
+name: IN/BT
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 29 D6 00 00
+# 
+name: IN/HDMI
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 12 ED 00 00
+#
+name: PREV
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 13 EC 00 00
+# 
+name: NEXT
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 14 EB 00 00
+# 
+name: PLAY/PAUSE
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2A D5 00 00
+
