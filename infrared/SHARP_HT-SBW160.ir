@@ -79,9 +79,8 @@ protocol: NECext
 address: 86 FF 00 00
 command: 14 EB 00 00
 # 
-name: PLAY/PAUSE
+name: PLAY
 type: parsed
 protocol: NECext
 address: 86 FF 00 00
 command: 2A D5 00 00
-
